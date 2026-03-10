@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const { wrestlerRoutes } = require("./ROUTES/wrestler.routes");
 
-mongoose.connect("mongodb+srv://lohitkumar2003_db_user:mSfx7yscQOBaFool@m10.fn6nozu.mongodb.net")
+mongoose.connect("mongodb+srv://lohitkumar2003_db_user:.fn6nozu.mongodb.net")
 .then((data)=>{
     console.log("DB CONNECTED")
 })
